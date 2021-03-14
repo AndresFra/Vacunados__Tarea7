@@ -1,0 +1,55 @@
+﻿@page "/Configuracion"
+
+@inject NavigationManager NavigationManager
+@inject HttpClient http
+
+<h1>Configuracion</h1>
+<p>
+    <a href="/addVacuna">Agregar Vacuna</a>
+</p>
+@if (vacuList == null)
+{
+    <p>Cargando...</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Marca</th>
+                <th>Cantidad</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var vac in vacuList)
+            {
+            <tr>
+                <td>@vac.marca</td>
+                <td>@vac.cantidad</td>
+                <td>
+                    <a href='/deleteVacuna/@vac.id'>Eliminar</a>
+
+                </td>
+            </tr>
+            }
+        </tbody>
+    </table>
+}
+
+
+
+
+
+
+@code {
+    Vacunas[] vacuList;
+    protected override async Task OnInitializedAsync()
+    {
+        await loadData();
+    }
+
+    protected async Task loadData()
+    {
+        vacuList = await http.GetJsonAsync<Vacunas[]>("https://localhost:44313/api/Vacunas");
+    }
+}
