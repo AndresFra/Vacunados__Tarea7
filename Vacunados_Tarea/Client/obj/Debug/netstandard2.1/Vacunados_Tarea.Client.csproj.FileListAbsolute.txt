@@ -763,6 +763,8 @@ C:\Users\crist\Desktop\Programacion III\Vacunados__Tarea7\Vacunados_Tarea\Client
 C:\Users\crist\Desktop\Programacion III\Vacunados__Tarea7\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\Vacunados_Tarea.Client.pdb
 C:\Users\crist\Desktop\Programacion III\Vacunados__Tarea7\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\ConsultaVacunados.razor.g.cs
 C:\Users\crist\Desktop\Programacion III\Vacunados__Tarea7\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\Razor\Pages\ConsultaVacunados.razor.g.cs
-C:\Users\crist\Desktop\Programacion III\Vacunados__Tarea7\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\integrity\6RYrATEW6-nP4C8oRjTDEjiByTJRgcey3UPU03Yyv6o=.hash
-C:\Users\crist\Desktop\Programacion III\Vacunados__Tarea7\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\integrity\b8WMszDfsN9xao-OQ98KSjn0v689eEL9jUQuCLUzK1U=.hash
-C:\Users\crist\Desktop\Programacion III\Vacunados__Tarea7\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\integrity\5oQ64wnhIaBYG3aVSxVqKFD2QFYUNTZOERaN3S77C9o=.hash
+C:\Users\crist\Desktop\Programacion III\Vacunados__Tarea7\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\AnularVacuna.razor.g.cs
+C:\Users\crist\Desktop\Programacion III\Vacunados__Tarea7\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\Razor\Pages\AnularVacuna.razor.g.cs
+C:\Users\crist\Desktop\Programacion III\Vacunados__Tarea7\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\integrity\U12VpuK56diD7qYjulIF_Z2Hm2lvO489oV5GoBpA6zs=.hash
+C:\Users\crist\Desktop\Programacion III\Vacunados__Tarea7\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\integrity\NncFnZjTjJPppMCwavGHdUzIzoPJkfvLIfOJQWFVZgM=.hash
+C:\Users\crist\Desktop\Programacion III\Vacunados__Tarea7\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\integrity\OcYPsGOOI-7JmGA4f71pQpXgpJhXigWExXP5iqgPcl8=.hash

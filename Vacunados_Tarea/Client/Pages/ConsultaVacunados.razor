@@ -69,6 +69,6 @@
 
     protected async Task loadData()
     {
-        persona = await http.GetJsonAsync<Personas>("https://localhost:44313/api/Vacunas/" + nombre + "/" + apellido);
+        persona = await http.GetJsonAsync<Personas>("https://localhost:44313/api/Personas/" + nombre + "/" + apellido);
     }
 }
