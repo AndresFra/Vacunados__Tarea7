@@ -1,0 +1,53 @@
+﻿@page "/DeleteVacunas/{id}"
+
+@using Vacunados_Tarea.Shared
+@inject NavigationManager NavigationManager
+@inject HttpClient http
+
+
+<h3>Eliminar Vacunas</h3>
+<br />
+<p>Esta seguro que desea eliminar?</p>
+<div class="col-md-4">
+    <table class="table">
+        <tr>
+            <td>Marca</td>
+            <td>@vac.marca</td>
+        </tr>
+
+        <tr>
+            <td>Cantidad</td>
+            <td>@vac.cantidad</td>
+        </tr>
+    </table>
+
+    <div class="form-group">
+        <input type="button" class="btn btn-primary" @onclick="Delete" value="Eliminar" />
+        <hr />
+        <input type="button" class="btn" @onclick="cancel" value="cancelar" />
+    </div>
+</div>
+
+
+@code {
+    [Parameter]
+    public string id { get; set; }
+    Vacunas vac = new Vacunas();
+
+    protected override async Task OnInitializedAsync()
+    {
+        vac = await http.GetJsonAsync<Vacunas>("https://localhost:44313/api/Vacunas" + id);
+    }
+
+    protected async Task Delete()
+    {
+        await http.DeleteAsync("https://localhost:44313/api/Vacunas" + id);
+        NavigationManager.NavigateTo("Configuracion");
+    }
+
+    void cancel()
+    {
+        NavigationManager.NavigateTo("Configuracion");
+    }
+}
+

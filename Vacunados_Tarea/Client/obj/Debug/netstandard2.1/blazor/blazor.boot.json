@@ -6,7 +6,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "Vacunados_Tarea.Client.dll": "sha256-znP27RoKGJNPQLa6l3HRqPdqMuDR3up0HHJ3UzuXRcY=",
+      "Vacunados_Tarea.Client.dll": "sha256-0KUEQPFG7Ul+mWB+q291jA6wi5XZ0PnsGW8AuUOk\/N8=",
       "System.Net.Http.Json.dll": "sha256-99dseBOagY3mzu5Y8Eqm8gRI+o8QbbCp7R2Ew9bQ+5E=",
       "System.Buffers.dll": "sha256-ZxXy75PYbzJxNfAc\/SAP1nUYm4gt1jSaOpFnBb9m85M=",
       "mscorlib.dll": "sha256-BaZPMj95+YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=",
@@ -62,7 +62,7 @@
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-czNf3btAeBW\/vvID5LAfgcsNZ+GM3ssVuPaMflcg0rs="
     },
     "pdb": {
-      "Vacunados_Tarea.Client.pdb": "sha256-RTBmXM4yY5VA81lXp6R4yUtjjE2N8NqApWLNJwE5dQo=",
+      "Vacunados_Tarea.Client.pdb": "sha256-g6YJ411NfCoanos1\/8kBNJYi5t9J4nUS0ObuYDIj+Zs=",
       "Vacunados_Tarea.Shared.pdb": "sha256-ugFMcr\/NhVVV3saMvg\/4k44KzyOGqAup8\/Pvcv9WwZg="
     },
     "runtime": {

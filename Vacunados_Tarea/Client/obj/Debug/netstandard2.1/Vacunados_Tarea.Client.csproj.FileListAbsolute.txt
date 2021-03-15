@@ -189,7 +189,6 @@ C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Client\obj\Debug\nets
 C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\Razor\_Imports.razor.g.cs
 C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\Vacunados_Tarea.Client.csproj.CopyComplete
 C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\blazor\unlinked.output
-C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\integrity\znP27RoKGJNPQLa6l3HRqPdqMuDR3up0HHJ3UzuXRcY=.hash
 C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\integrity\99dseBOagY3mzu5Y8Eqm8gRI_o8QbbCp7R2Ew9bQ_5E=.hash
 C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\integrity\ZxXy75PYbzJxNfAc-SAP1nUYm4gt1jSaOpFnBb9m85M=.hash
 C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\integrity\BaZPMj95_YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=.hash
@@ -243,14 +242,12 @@ C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Client\obj\Debug\nets
 C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\integrity\rvTW0d54uLW0iDMAX30lpmr9f8uHoS3YYkEU5zNGhyc=.hash
 C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\integrity\LqwA2Rpm96Ualk0IhLZar87kfRCyKHzHTeTt2jYhm7M=.hash
 C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\integrity\czNf3btAeBW-vvID5LAfgcsNZ_GM3ssVuPaMflcg0rs=.hash
-C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\integrity\RTBmXM4yY5VA81lXp6R4yUtjjE2N8NqApWLNJwE5dQo=.hash
 C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\integrity\ugFMcr-NhVVV3saMvg-4k44KzyOGqAup8-Pvcv9WwZg=.hash
 C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\integrity\mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=.hash
 C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\integrity\3S0qzYaBEKOBXarzVLNzNAFXlwJr6nI3lFlYUpQTPH8=.hash
 C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\integrity\UC-3Rm1NkdNdlIrzYARo_dO-HDlS5mhPxo0IQv7kma8=.hash
 C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\integrity\SPHS1EAPAcMFN4TEIUYl3FWtoCQTsNJch0XVGgok1eE=.hash
 C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\blazor\blazor.boot.json
-C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\integrity\U8xJ77KX8n452Mh_gBfzfWlTch1b2ubtY_dR1Mn9gOo=.hash
 C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\Vacunados_Tarea.Client.dll.gz
 C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Net.Http.Json.dll.gz
 C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Buffers.dll.gz
@@ -377,3 +374,10 @@ C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Client\obj\Debug\nets
 C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\staticwebassets\Vacunados_Tarea.Client.StaticWebAssets.xml
 C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\Vacunados_Tarea.Client.dll
 C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\Vacunados_Tarea.Client.pdb
+C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\AddVacunados.razor.g.cs
+C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\Razor\Pages\AddVacunados.razor.g.cs
+C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\DeleteVacunas.razor.g.cs
+C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\Razor\Pages\DeleteVacunas.razor.g.cs
+C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\integrity\0KUEQPFG7Ul_mWB_q291jA6wi5XZ0PnsGW8AuUOk-N8=.hash
+C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\integrity\g6YJ411NfCoanos1-8kBNJYi5t9J4nUS0ObuYDIj_Zs=.hash
+C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Client\obj\Debug\netstandard2.1\integrity\7ptcECO_nMmk8H76uQPM_0tb_HBHTijsh_5Syv4Aie4=.hash
