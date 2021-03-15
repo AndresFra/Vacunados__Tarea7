@@ -4,35 +4,41 @@
 @inject NavigationManager NavigationManager
 @inject HttpClient http
 
-<h3>Agregar Vacunados</h3>
+<h3 class="text-center">Agregar Vacunados</h3>
 <hr />
-<form>
+<div class="container">
     <div class="row">
-        <div class="form-group">
-            <label for="marca" class="control-label">Marca</label>
-            <input for="marca" class="form-control" @bind="@vac.marca" />
-        </div>
-
-
-        <div class="form-group">
-            <label for="cantidad" class="control-label">Cantidad</label>
-            <input for="cantidad" class="form-control" @bind="@vac.cantidad" />
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-4">
-            <div class="form-control">
-                <input type="button" class="btn btn-primary" @onclick="CreateVacuna" value="Guardar" />
-                <hr />
-                <input type="button" class="btn" @onclick="cancel" value="cancelar" />
+        <form>
+            <div class="form-group">
+                <div class="form-group row">
+                    <label for="marca" class="control-label">Marca</label>
+                    <div class="col-sm-6">
+                        <input for="marca" class="form-control" @bind="@vac.marca" />
+                    </div>
+                </div>
             </div>
 
-        </div>
-
+            <div class="form-group">
+                <div class="form-group row">
+                    <label for="cantidad" class="control-label">Cantidad</label>
+                    <div class="col-sm-6">
+                        <input for="cantidad" class="form-control" @bind="@vac.cantidad" />
+                    </div>
+                </div>
+            </div>
+        </form>
     </div>
-</form>
-
-
+    <div class="row">
+        <div class="modal-footer">
+            <div class="col-sm">
+                <input type="button" class="btn btn-success" @onclick="CreateVacuna" value="Guardar" />
+            </div>
+            <div class="col-sm">
+                <input type="button" class="btn btn-danger" @onclick="cancel" value="cancelar" />
+            </div>
+        </div>
+    </div>
+</div>
 
 
 @code {

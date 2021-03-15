@@ -984,24 +984,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\crist\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\Vacunados_Tarea\\Vacunados_Tarea\\Server\\Vacunados_Tarea.Server.csproj",
+      "projectUniqueName": "C:\\Users\\crist\\Desktop\\Programacion III\\Vacunados__Tarea7\\Vacunados_Tarea\\Server\\Vacunados_Tarea.Server.csproj",
       "projectName": "Vacunados_Tarea.Server",
-      "projectPath": "C:\\Users\\User\\source\\repos\\Vacunados_Tarea\\Vacunados_Tarea\\Server\\Vacunados_Tarea.Server.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\Vacunados_Tarea\\Vacunados_Tarea\\Server\\obj\\",
+      "projectPath": "C:\\Users\\crist\\Desktop\\Programacion III\\Vacunados__Tarea7\\Vacunados_Tarea\\Server\\Vacunados_Tarea.Server.csproj",
+      "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\crist\\Desktop\\Programacion III\\Vacunados__Tarea7\\Vacunados_Tarea\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -1013,11 +1014,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\User\\source\\repos\\Vacunados_Tarea\\Vacunados_Tarea\\Client\\Vacunados_Tarea.Client.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\Vacunados_Tarea\\Vacunados_Tarea\\Client\\Vacunados_Tarea.Client.csproj"
+            "C:\\Users\\crist\\Desktop\\Programacion III\\Vacunados__Tarea7\\Vacunados_Tarea\\Client\\Vacunados_Tarea.Client.csproj": {
+              "projectPath": "C:\\Users\\crist\\Desktop\\Programacion III\\Vacunados__Tarea7\\Vacunados_Tarea\\Client\\Vacunados_Tarea.Client.csproj"
             },
-            "C:\\Users\\User\\source\\repos\\Vacunados_Tarea\\Vacunados_Tarea\\Shared\\Vacunados_Tarea.Shared.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\Vacunados_Tarea\\Vacunados_Tarea\\Shared\\Vacunados_Tarea.Shared.csproj"
+            "C:\\Users\\crist\\Desktop\\Programacion III\\Vacunados__Tarea7\\Vacunados_Tarea\\Shared\\Vacunados_Tarea.Shared.csproj": {
+              "projectPath": "C:\\Users\\crist\\Desktop\\Programacion III\\Vacunados__Tarea7\\Vacunados_Tarea\\Shared\\Vacunados_Tarea.Shared.csproj"
             }
           }
         }

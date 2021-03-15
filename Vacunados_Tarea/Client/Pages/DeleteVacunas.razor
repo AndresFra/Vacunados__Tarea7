@@ -36,12 +36,12 @@
 
     protected override async Task OnInitializedAsync()
     {
-        vac = await http.GetJsonAsync<Vacunas>("https://localhost:44313/api/Vacunas" + id);
+        vac = await http.GetJsonAsync<Vacunas>("https://localhost:44313/api/Vacunas/" + id);
     }
 
     protected async Task Delete()
     {
-        await http.DeleteAsync("https://localhost:44313/api/Vacunas" + id);
+        await http.DeleteAsync("https://localhost:44313/api/Vacunas/" + id);
         NavigationManager.NavigateTo("Configuracion");
     }
 

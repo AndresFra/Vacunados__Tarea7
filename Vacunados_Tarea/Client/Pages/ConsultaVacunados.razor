@@ -1,0 +1,74 @@
+﻿@page "/ConsultarVacunados"
+
+@using Vacunados_Tarea.Shared
+@inject NavigationManager NavigationManager
+@inject HttpClient http
+
+<h3 class="text-center">Consultando</h3>
+
+<div class="container">
+    <div class="row">
+        <ul class="list-inline">
+            <li class="list-inline-item">
+                <input class="form-control" placeholder="Nombre" @bind="nombre" />
+            </li>
+            <li class="list-inline-item">
+                <input class="form-control" placeholder="Apellido" @bind="apellido" />
+            </li>
+            <li class="list-inline-item">
+                <button class="btn btn-dark" @onclick="loadData">Buscar</button>
+            </li>
+        </ul>
+    </div>
+    <div class="row">
+        @if (persona == null)
+        {
+            <div class="col justify-content-center">
+                <ul class="list-group">
+                    <li class="list-group-item text-center">
+                        <p>Persona no encontrada</p>
+                    </li>
+                </ul>
+            </div>
+        }
+        else
+        {
+            <div class="col justify-content-center">
+                <ul class="list-group">
+                    <li class="list-group-item text-center">
+                        <p><strong>Nombre:</strong> @persona.nombre</p>
+                    </li>
+                    <li class="list-group-item text-center">
+                        <p><strong>Apellido:</strong> @persona.apellido</p>
+                    </li>
+                    <li class="list-group-item text-center">
+                        <p><strong>Fecha de Nacimiento:</strong> @persona.fechaNacimiento</p>
+                    </li>
+                    <li class="list-group-item text-center">
+                        <p><strong>Numero Telefonico:</strong> @persona.telefono</p>
+                    </li>
+                    <li class="list-group-item text-center">
+                        <p><strong>Residencia:</strong> @persona.Provincias.nombre - @persona.Provincias.Pais.nombre</p>
+                    </li>
+                    <li class="list-group-item text-center">
+                        <p><strong>Signo Zodiacal:</strong> @persona.SignosSodiacales.nombre </p>
+                    </li>
+                    <li class="list-group-item text-center">
+                        <p><strong>Vacuna:</strong> @persona.Vacunas.marca </p>
+                    </li>
+                </ul>
+            </div>
+        }
+    </div>
+</div>
+
+@code {
+    public Personas persona { get; set; }
+    public string nombre { get; set; }
+    public string apellido { get; set; }
+
+    protected async Task loadData()
+    {
+        persona = await http.GetJsonAsync<Personas>("https://localhost:44313/api/Vacunas/" + nombre + "/" + apellido);
+    }
+}

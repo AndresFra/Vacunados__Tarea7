@@ -7,3 +7,12 @@ C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Shared\obj\Debug\nets
 C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Shared\obj\Debug\netstandard2.1\Vacunados_Tarea.Shared.csproj.CoreCompileInputs.cache
 C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Shared\obj\Debug\netstandard2.1\Vacunados_Tarea.Shared.dll
 C:\Users\User\source\repos\Vacunados_Tarea\Vacunados_Tarea\Shared\obj\Debug\netstandard2.1\Vacunados_Tarea.Shared.pdb
+C:\Users\crist\Desktop\Programacion III\Vacunados__Tarea7\Vacunados_Tarea\Shared\bin\Debug\netstandard2.1\Vacunados_Tarea.Shared.deps.json
+C:\Users\crist\Desktop\Programacion III\Vacunados__Tarea7\Vacunados_Tarea\Shared\bin\Debug\netstandard2.1\Vacunados_Tarea.Shared.dll
+C:\Users\crist\Desktop\Programacion III\Vacunados__Tarea7\Vacunados_Tarea\Shared\bin\Debug\netstandard2.1\Vacunados_Tarea.Shared.pdb
+C:\Users\crist\Desktop\Programacion III\Vacunados__Tarea7\Vacunados_Tarea\Shared\obj\Debug\netstandard2.1\Vacunados_Tarea.Shared.csprojAssemblyReference.cache
+C:\Users\crist\Desktop\Programacion III\Vacunados__Tarea7\Vacunados_Tarea\Shared\obj\Debug\netstandard2.1\Vacunados_Tarea.Shared.AssemblyInfoInputs.cache
+C:\Users\crist\Desktop\Programacion III\Vacunados__Tarea7\Vacunados_Tarea\Shared\obj\Debug\netstandard2.1\Vacunados_Tarea.Shared.AssemblyInfo.cs
+C:\Users\crist\Desktop\Programacion III\Vacunados__Tarea7\Vacunados_Tarea\Shared\obj\Debug\netstandard2.1\Vacunados_Tarea.Shared.csproj.CoreCompileInputs.cache
+C:\Users\crist\Desktop\Programacion III\Vacunados__Tarea7\Vacunados_Tarea\Shared\obj\Debug\netstandard2.1\Vacunados_Tarea.Shared.dll
+C:\Users\crist\Desktop\Programacion III\Vacunados__Tarea7\Vacunados_Tarea\Shared\obj\Debug\netstandard2.1\Vacunados_Tarea.Shared.pdb

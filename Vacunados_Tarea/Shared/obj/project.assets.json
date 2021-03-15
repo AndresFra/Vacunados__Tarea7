@@ -8,24 +8,25 @@
     ".NETStandard,Version=v2.1": []
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\crist\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\Vacunados_Tarea\\Vacunados_Tarea\\Shared\\Vacunados_Tarea.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\crist\\Desktop\\Programacion III\\Vacunados__Tarea7\\Vacunados_Tarea\\Shared\\Vacunados_Tarea.Shared.csproj",
       "projectName": "Vacunados_Tarea.Shared",
-      "projectPath": "C:\\Users\\User\\source\\repos\\Vacunados_Tarea\\Vacunados_Tarea\\Shared\\Vacunados_Tarea.Shared.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\Vacunados_Tarea\\Vacunados_Tarea\\Shared\\obj\\",
+      "projectPath": "C:\\Users\\crist\\Desktop\\Programacion III\\Vacunados__Tarea7\\Vacunados_Tarea\\Shared\\Vacunados_Tarea.Shared.csproj",
+      "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\crist\\Desktop\\Programacion III\\Vacunados__Tarea7\\Vacunados_Tarea\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
