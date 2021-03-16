@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\Vacunados_Tarea\\Vacunados_Tarea\\Client\\Vacunados_Tarea.Client.csproj": {}
+    "C:\\Users\\David\\Desktop\\Front VacunasApp\\Vacunados__Tarea7\\Vacunados_Tarea\\Client\\Vacunados_Tarea.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\Vacunados_Tarea\\Vacunados_Tarea\\Client\\Vacunados_Tarea.Client.csproj": {
+    "C:\\Users\\David\\Desktop\\Front VacunasApp\\Vacunados__Tarea7\\Vacunados_Tarea\\Client\\Vacunados_Tarea.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Vacunados_Tarea\\Vacunados_Tarea\\Client\\Vacunados_Tarea.Client.csproj",
+        "projectUniqueName": "C:\\Users\\David\\Desktop\\Front VacunasApp\\Vacunados__Tarea7\\Vacunados_Tarea\\Client\\Vacunados_Tarea.Client.csproj",
         "projectName": "Vacunados_Tarea.Client",
-        "projectPath": "C:\\Users\\User\\source\\repos\\Vacunados_Tarea\\Vacunados_Tarea\\Client\\Vacunados_Tarea.Client.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\Vacunados_Tarea\\Vacunados_Tarea\\Client\\obj\\",
+        "projectPath": "C:\\Users\\David\\Desktop\\Front VacunasApp\\Vacunados__Tarea7\\Vacunados_Tarea\\Client\\Vacunados_Tarea.Client.csproj",
+        "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\David\\Desktop\\Front VacunasApp\\Vacunados__Tarea7\\Vacunados_Tarea\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -29,9 +31,10 @@
         },
         "frameworks": {
           "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\Vacunados_Tarea\\Vacunados_Tarea\\Shared\\Vacunados_Tarea.Shared.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\Vacunados_Tarea\\Vacunados_Tarea\\Shared\\Vacunados_Tarea.Shared.csproj"
+              "C:\\Users\\David\\Desktop\\Front VacunasApp\\Vacunados__Tarea7\\Vacunados_Tarea\\Shared\\Vacunados_Tarea.Shared.csproj": {
+                "projectPath": "C:\\Users\\David\\Desktop\\Front VacunasApp\\Vacunados__Tarea7\\Vacunados_Tarea\\Shared\\Vacunados_Tarea.Shared.csproj"
               }
             }
           }
@@ -44,6 +47,7 @@
       },
       "frameworks": {
         "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
           "dependencies": {
             "Microsoft.AspNetCore.Blazor.HttpClient": {
               "target": "Package",
@@ -83,25 +87,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\Vacunados_Tarea\\Vacunados_Tarea\\Shared\\Vacunados_Tarea.Shared.csproj": {
+    "C:\\Users\\David\\Desktop\\Front VacunasApp\\Vacunados__Tarea7\\Vacunados_Tarea\\Shared\\Vacunados_Tarea.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Vacunados_Tarea\\Vacunados_Tarea\\Shared\\Vacunados_Tarea.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\David\\Desktop\\Front VacunasApp\\Vacunados__Tarea7\\Vacunados_Tarea\\Shared\\Vacunados_Tarea.Shared.csproj",
         "projectName": "Vacunados_Tarea.Shared",
-        "projectPath": "C:\\Users\\User\\source\\repos\\Vacunados_Tarea\\Vacunados_Tarea\\Shared\\Vacunados_Tarea.Shared.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\Vacunados_Tarea\\Vacunados_Tarea\\Shared\\obj\\",
+        "projectPath": "C:\\Users\\David\\Desktop\\Front VacunasApp\\Vacunados__Tarea7\\Vacunados_Tarea\\Shared\\Vacunados_Tarea.Shared.csproj",
+        "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\David\\Desktop\\Front VacunasApp\\Vacunados__Tarea7\\Vacunados_Tarea\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -112,6 +118,7 @@
         },
         "frameworks": {
           "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
             "projectReferences": {}
           }
         },
@@ -123,6 +130,7 @@
       },
       "frameworks": {
         "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
           "imports": [
             "net461",
             "net462",
@@ -138,7 +146,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

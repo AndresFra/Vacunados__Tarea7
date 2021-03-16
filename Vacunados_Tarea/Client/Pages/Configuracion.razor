@@ -51,5 +51,6 @@ else
     protected async Task loadData()
     {
         vacuList = await http.GetJsonAsync<Vacunas[]>("https://localhost:44313/api/Vacunas");
+        
     }
 }
