@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\GcWhxXrBBbK3uPmCZxDxR7zrwd8JXqshs5c08N_pY-4=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\m4LZNQq2kJBqYpgwYybGjiCWRAhpUxA_yazS0L0YkcY=.hash",
       "Source": "C:\\Users\\David\\Desktop\\Front VacunasApp\\Vacunados__Tarea7\\Vacunados_Tarea\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Vacunados_Tarea.Client.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Vacunados_Tarea.Client.dll.gz"
     },
@@ -196,7 +196,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\ZA4KnqSYkgkG-OKbwAD60qJ-EtT3U3Q8hqf4JGxK8Rg=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\7v1D88lXRcWu2rgFRx4RfyQX2de600DJKGfiWcUsL8Y=.hash",
       "Source": "C:\\Users\\David\\Desktop\\Front VacunasApp\\Vacunados__Tarea7\\Vacunados_Tarea\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Vacunados_Tarea.Shared.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Vacunados_Tarea.Shared.dll.gz"
     },
@@ -271,12 +271,12 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\TjEKWFeTNpa_j1Pryuo65xbzktTNWpSYGR-60CytMVQ=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\-RN0TKuHglSRHSLnHLqKYgWq4ARuY1nhiJZiBQdPgR4=.hash",
       "Source": "C:\\Users\\David\\Desktop\\Front VacunasApp\\Vacunados__Tarea7\\Vacunados_Tarea\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Vacunados_Tarea.Client.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Vacunados_Tarea.Client.pdb.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\HNVMT2njJd79yBxvo1PsTaVzERXg0x_7xbTUjoT0-hg=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\W3JEIWlhdjTw8nw6WMVE_jQmTVAwpCPFAJNJ8InISXQ=.hash",
       "Source": "C:\\Users\\David\\Desktop\\Front VacunasApp\\Vacunados__Tarea7\\Vacunados_Tarea\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Vacunados_Tarea.Shared.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Vacunados_Tarea.Shared.pdb.gz"
     },
@@ -301,7 +301,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\SeJ_-DPZe1P6d6wgv7E0Nngen1cEujg97hA4TThhOrk=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\oHs7FH7RWwr2aV0wKxSAm77YIwYMjwZjRv0qB-e_2sI=.hash",
       "Source": "C:\\Users\\David\\Desktop\\Front VacunasApp\\Vacunados__Tarea7\\Vacunados_Tarea\\Client\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.gz"
     }

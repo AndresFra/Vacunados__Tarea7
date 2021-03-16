@@ -75,13 +75,6 @@ using Vacunados_Tarea.Client.Shared;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 10 "C:\Users\David\Desktop\Front VacunasApp\Vacunados__Tarea7\Vacunados_Tarea\Client\_Imports.razor"
-using Vacunados_Tarea.Shared;
-
-#line default
-#line hidden
-#nullable disable
     public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -90,7 +83,7 @@ using Vacunados_Tarea.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 33 "C:\Users\David\Desktop\Front VacunasApp\Vacunados__Tarea7\Vacunados_Tarea\Client\Shared\NavMenu.razor"
+#line 38 "C:\Users\David\Desktop\Front VacunasApp\Vacunados__Tarea7\Vacunados_Tarea\Client\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 

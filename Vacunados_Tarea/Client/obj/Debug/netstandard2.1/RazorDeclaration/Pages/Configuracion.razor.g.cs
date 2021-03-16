@@ -76,7 +76,7 @@ using Vacunados_Tarea.Client.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "C:\Users\David\Desktop\Front VacunasApp\Vacunados__Tarea7\Vacunados_Tarea\Client\_Imports.razor"
+#line 3 "C:\Users\David\Desktop\Front VacunasApp\Vacunados__Tarea7\Vacunados_Tarea\Client\Pages\Configuracion.razor"
 using Vacunados_Tarea.Shared;
 
 #line default
@@ -91,7 +91,7 @@ using Vacunados_Tarea.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 44 "C:\Users\David\Desktop\Front VacunasApp\Vacunados__Tarea7\Vacunados_Tarea\Client\Pages\Configuracion.razor"
+#line 46 "C:\Users\David\Desktop\Front VacunasApp\Vacunados__Tarea7\Vacunados_Tarea\Client\Pages\Configuracion.razor"
        
     Vacunas[] vacuList;
     protected override async Task OnInitializedAsync()

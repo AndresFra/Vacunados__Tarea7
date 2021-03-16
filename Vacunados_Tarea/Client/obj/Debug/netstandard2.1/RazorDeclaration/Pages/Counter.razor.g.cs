@@ -75,13 +75,6 @@ using Vacunados_Tarea.Client.Shared;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 10 "C:\Users\David\Desktop\Front VacunasApp\Vacunados__Tarea7\Vacunados_Tarea\Client\_Imports.razor"
-using Vacunados_Tarea.Shared;
-
-#line default
-#line hidden
-#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/counter")]
     public partial class Counter : Microsoft.AspNetCore.Components.ComponentBase
     {

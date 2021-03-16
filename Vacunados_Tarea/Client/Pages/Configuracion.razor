@@ -1,11 +1,12 @@
 ﻿@page "/Configuracion"
 
+@using Vacunados_Tarea.Shared
 @inject NavigationManager NavigationManager
 @inject HttpClient http
 
-<h1>Configuracion</h1>
+<h1 class="text-center">Configuracion</h1>
 <p>
-    <a href="/addVacuna">Agregar Vacuna</a>
+    <a class="btn btn-dark" href="/AddVacunados">Agregar Vacuna</a>
 </p>
 @if (vacuList == null)
 {
@@ -13,7 +14,7 @@
 }
 else
 {
-    <table class="table">
+    <table class="table table-hover">
         <thead>
             <tr>
                 <th>Marca</th>
@@ -23,14 +24,15 @@ else
         <tbody>
             @foreach (var vac in vacuList)
             {
-            <tr>
-                <td>@vac.marca</td>
-                <td>@vac.cantidad</td>
-                <td>
-                    <a href='/deleteVacuna/@vac.id'>Eliminar</a>
+                <tr>
+                    <td>@vac.marca</td>
+                    <td>@vac.cantidad</td>
+                    <td>
+                        
+                        <a class="btn btn-danger" href="/DeleteVacunas/@vac.id">Eliminar</a>
 
-                </td>
-            </tr>
+                    </td>
+                </tr>
             }
         </tbody>
     </table>

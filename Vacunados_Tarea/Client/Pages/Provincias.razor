@@ -1,0 +1,33 @@
+﻿@page "/provincias"
+
+@using Vacunados_Tarea.Shared
+@inject NavigationManager NavigationManager
+@inject HttpClient http
+
+<h3>Listado de Vacunas por Provincias</h3>
+<select class="form-control" @onchange="">
+    @foreach (var _provincia in provincia)
+    {
+        <option value="@_provincia.nombre"> @_provincia.nombre </option>
+    }
+
+</select>
+
+@code {
+    List<Provincias> provincia = new List<Provincias>();
+    public string nombre { get; set; }
+    public string apellido { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        provincia = await http.GetJsonAsync<List<Provincias>>("https://localhost:44313/api/Provincias");
+        
+    }
+
+    public async Task LoadData()
+    {
+
+    }
+
+
+}

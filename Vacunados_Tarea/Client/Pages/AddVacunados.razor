@@ -1,0 +1,56 @@
+﻿@page "/AddVacunados"
+
+@using Vacunados_Tarea.Shared
+@inject NavigationManager NavigationManager
+@inject HttpClient http
+
+<h3 class="text-center">Agregar Vacunados</h3>
+<hr />
+<div class="container">
+    <div class="row">
+        <form>
+            <div class="form-group">
+                <div class="form-group row">
+                    <label for="marca" class="control-label">Marca</label>
+                    <div class="col-sm-6">
+                        <input for="marca" class="form-control" @bind="@vac.marca" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-group row">
+                    <label for="cantidad" class="control-label">Cantidad</label>
+                    <div class="col-sm-6">
+                        <input for="cantidad" class="form-control" @bind="@vac.cantidad" />
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="row">
+        <div class="modal-footer">
+            <div class="col-sm">
+                <input type="button" class="btn btn-success" @onclick="CreateVacuna" value="Guardar" />
+            </div>
+            <div class="col-sm">
+                <input type="button" class="btn btn-danger" @onclick="cancel" value="cancelar" />
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@code {
+    Vacunas vac = new Vacunas();
+    protected async Task CreateVacuna()
+    {
+        await http.PostJsonAsync("https://localhost:44313/api/Vacunas", vac);
+        NavigationManager.NavigateTo("Configuracion");
+    }
+
+    void cancel()
+    {
+        NavigationManager.NavigateTo("Configuracion");
+    }
+}

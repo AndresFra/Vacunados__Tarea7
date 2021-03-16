@@ -1,0 +1,29 @@
+﻿@page "/AnularVacunados"
+
+@using Vacunados_Tarea.Shared
+@inject NavigationManager NavigationManager
+@inject HttpClient http
+
+<h3 class="text-center">Anular</h3>
+
+<div class="container">
+    <div class="row">
+        <ul class="list-inline">
+            <li class="list-inline-item">
+                <input class="form-control" placeholder="Nombre" @bind="cedula" />
+            </li>
+            <li class="list-inline-item">
+                <button class="btn btn-dark" @onclick="DeleteData">Eliminar</button>
+            </li>
+        </ul>
+    </div>
+</div>
+   
+@code {
+    public string cedula { get; set; }
+
+    protected async Task DeleteData()
+    {
+        await http.DeleteAsync("https://localhost:44313/api/Personas/" + cedula);
+    }
+}
